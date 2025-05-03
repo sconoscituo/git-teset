@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skin>
+	<information>
+		<name>Strada</name>
+		<version>1.0</version>
+		<description>
+			<![CDATA[ HTML5,CSS3 기반 IE9이하의 브라우저는 지원안함. 최신 브라우저 사용을 권장. 하위지원은 전혀 고려하지 않음. W3C Validator HTML/CSS모두 통과. 하위지원/ 스킨 커스텀 수정 요청 일절 거부. 수정은 허용, 재배포 금지. 하단부 저작자 표시 제거 또는 수정금지.]]>
+		</description>
+		<license>
+			<![CDATA[무단수정 금지 / 재배포 금지 / 스킨 관련 문의 http://est0que.tistory.com]]>
+		</license>
+		<tags>
+			<tag>TISTORY</tag> <tag>스킨위자드</tag> <tag>지원</tag> <tag>스킨</tag> <tag>심플</tag> <tag>모던</tag>
+		</tags>
+	</information>
+	<author>
+		<name>Estoque</name>
+		<homepage>http://est0que.tistory.com</homepage>
+		<email>incusx@naver.com</email>
+	</author>
+	<default>
+		<recentEntries>5</recentEntries>
+		<recentComments>5</recentComments>
+		<recentTrackbacks>5</recentTrackbacks>
+		<itemsOnGuestbook>10</itemsOnGuestbook>
+		<tagsInCloud>30</tagsInCloud>
+		<sortInCloud>3</sortInCloud>
+		<expandComment>0</expandComment>
+		<expandTrackback>0</expandTrackback>
+		<lengthOfRecentNotice>20</lengthOfRecentNotice>
+		<lengthOfRecentEntry>20</lengthOfRecentEntry>
+		<lengthOfRecentComment>20</lengthOfRecentComment>
+		<lengthOfRecentTrackback>20</lengthOfRecentTrackback>
+		<lengthOfLink>20</lengthOfLink>
+		<showListOnCategory>2</showListOnCategory>
+		<showListOnArchive>2</showListOnArchive>
+		<trackbackMessage>
+			<none>Trackback &lt;span class="cnt"&gt;0&lt;/span&gt;</none>
+			<single>Trackback &lt;span class="cnt"&gt;1&lt;/span&gt;</single>
+		</trackbackMessage>
+		<commentMessage>
+			<none>Comment &lt;span class="cnt"&gt;0&lt;/span&gt;</none>
+			<single>Comment &lt;span class="cnt"&gt;1&lt;/span&gt;</single>
+		</commentMessage>
+		<tree>
+			<color>666666</color>
+			<bgColor>f8f8f8</bgColor>
+			<activeColor>666666</activeColor>
+			<activeBgColor>f8f8f8</activeBgColor>
+			<labelLength>27</labelLength>
+			<showValue>1</showValue>
+		</tree>
+		<contentWidth>630</contentWidth>
+		<layout>2</layout>
+		<toolbar>white</toolbar>
+		<menuList>
+			<menu>
+				<menuId>1</menuId>
+				<menuName>블로그홈</menuName>
+			</menu>
+			<menu>
+				<menuId>4</menuId>
+				<menuName>지역로그</menuName>
+			</menu>
+			<menu>
+				<menuId>2</menuId>
+				<menuName>태그로그</menuName>
+			</menu>
+			<menu>
+				<menuId>3</menuId>
+				<menuName>미디어로그</menuName>
+			</menu>
+			<menu>
+				<menuId>6</menuId>
+				<menuName>방명록</menuName>
+			</menu>
+		</menuList>
+	</default>
+</skin>

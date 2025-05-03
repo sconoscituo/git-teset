@@ -1,0 +1,489 @@
+<!doctype html>
+<!-- strada by Estoque - http://est0que.tistory.com -->
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+<!--[if gt IE 9]><!--> <html class="no-js" lang="en" itemscope itemtype="http://schema.org/Product"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="HandheldFriendly" content="true" />
+    <meta name="description" content="[##_title_##] :: [##_page_title_##]">
+    <meta name="author" content="Strada">
+    <meta name="keywords" content="[##_meta_http_equiv_keywords_##], [##_article_rep_title_##]">  
+	<link rel="alternate" type="application/rss+xml" title="[##_title_##]" href="[##_rss_url_##]" >	
+	<title>[##_title_##] :: [##_page_title_##]</title>	
+	<script src="./images/modernizr-2.6.2.min.js"></script>
+	<link rel="stylesheet" href="./images/strada.css" />
+	<link rel="stylesheet" media="screen" type="text/css" href="./style.css" >
+</head>
+<body>
+<s_t3>
+	<nav id="topNav">
+		<div class="row">
+				<div class="tistoryMenu">
+					<a href="#" id="slideToggle">Menu</a>
+					[##_blog_menu_##]						
+				</div>
+				<h1><a href="[##_blog_link_##]">[##_title_##]</a></h1>
+		</div>
+	</nav>
+	<aside class="topSlide" id="drawer">	
+		<div class="row">	
+		<s_sidebar>			
+			<s_sidebar_element>
+			<!-- 블로그 프로필 모듈 -->
+				<div id="searchBox" class="three columns">
+					<div id="blogImage"><img src="[##_image_##]" alt="블로그 이미지" >
+					</div>
+					<div id="blogDesc">
+						<p>[##_desc_##]</p><p class="userID">by [##_blogger_##]</p>
+					</div>
+				</div>	
+			</s_sidebar_element>	
+			<s_sidebar_element>
+			<!-- 검색 모듈 -->
+				<div id="searchBox" class="three columns">
+					<s_search>
+						<input type="text" placeholder="Return to search..." name="[##_search_name_##]" value="[##_search_text_##]" onkeypress="if (event.keyCode == 13) { [##_search_onclick_submit_##] }">
+					</s_search>
+				</div>
+			</s_sidebar_element>	
+
+			<s_sidebar_element>
+			<!-- 공지사항 모듈 -->
+				<s_rct_notice>
+					<div id="notice" class="three columns">
+					<h4>Notice</h4>
+						<ul>
+							<s_rct_notice_rep>
+								<li><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a> </li>
+							</s_rct_notice_rep>
+						</ul>
+					</div>
+				</s_rct_notice>
+			</s_sidebar_element>			
+					
+			<s_sidebar_element>
+			<!-- 카테고리 모듈 -->
+				<div id="category" class="three columns">
+					<h4>Category</h4>
+					[##_category_list_##]
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 태그목록 모듈 -->
+				<div id="tagbox" class="three columns">
+					<h4>Tag Cloud</h4>
+						<s_random_tags>
+							<a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>,
+						</s_random_tags>
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 최근 포스트 모듈 -->
+				<div id="recentPost" class="three columns">
+					<h4>Recent Posts</h4>
+					<ul>
+						<s_rctps_rep>
+							<li>
+								<a href="[##_rctps_rep_link_##]"> [##_rctps_rep_title_##].</a>
+								<span class="cnt">[##_rctps_rep_rp_cnt_##]</span>
+							</li>
+						</s_rctps_rep>
+					</ul>
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 최근 댓글 모듈 -->
+				<div id="recentComment" class="three columns">
+					<h4>Recent Comments</h4>
+					<ul id="recentComments">
+						<s_rctrp_rep>
+							<li>
+								<a href="[##_rctrp_rep_link_##]">[##_rctrp_rep_desc_##].</a>
+								<span class="info">
+									<span class="name">[##_rctrp_rep_name_##]</span>
+									<span class="date">[##_rctrp_rep_time_##]</span>
+								</span>
+							</li>
+						</s_rctrp_rep>
+					</ul>
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 최근 트랙백 모듈 -->
+				<div id="recentTrackback" class="three columns">
+					<h4>Recent Trackbacks</h4>
+					<ul>
+						<s_rcttb_rep>
+							<li>
+								<a href="[##_rcttb_rep_link_##]">[##_rcttb_rep_desc_##].</a>
+								<span class="info">
+									<span class="name">[##_rcttb_rep_name_##]</span>
+									<span class="date">[##_rcttb_rep_time_##]</span>
+								</span>
+							</li>
+						</s_rcttb_rep>
+					</ul>
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 최근 보관함 모듈 -->
+				<div id="archive" class="three columns">
+					<h4>Archive</h4>
+					<ul>
+						<s_archive_rep>
+							<li>
+								<a href="[##_archive_rep_link_##]">[##_archive_rep_date_##] </a>
+								<span class="cnt">([##_archive_rep_count_##])</span>
+							</li>
+						</s_archive_rep>
+					</ul>
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 달력 모듈 -->
+				<div id="calendar" class="three columns">
+					[##_calendar_##]
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 링크 모듈 -->
+				<div id="link" class="three columns">
+					<ul>
+						<s_link_rep>
+							<li>
+								<a href="[##_link_url_##]" onclick="window.open(this.href); return false"> [##_link_site_##].</a>
+							</li>
+						</s_link_rep>
+					</ul>
+				</div>
+			</s_sidebar_element>			
+			<s_sidebar_element>
+			<!-- 카운터 모듈 -->
+				<div id="counter" class="three columns">
+					<dl>
+						<dt>Total</dt><dd class="total">[##_count_total_##]</dd>
+						<dt class="today">Today</dt><dd>[##_count_today_##]</dd>
+						<dt class="yesterday">Yesterday</dt><dd>[##_count_yesterday_##]</dd>
+					</dl>
+				</div>
+			</s_sidebar_element>			
+		</s_sidebar>
+		</div>
+	</aside>
+	<s_article_rep>
+	<div class="row main">		
+		<aside class="three columns">
+			<section gumby-fixed="top" gumby-top="20" gumby-pin="#end" class="info" >
+				<span class="category"><a href="[##_article_rep_category_link_##]">[##_article_rep_category_##]</a> </span>
+				<span class="date">[##_article_rep_date_##]</span>
+				<div class="author">
+					<span class="text">Posted by </span>[##_article_rep_author_##]
+				</div>
+				<div class="skiplink actionTrail">
+						<a href="#" onclick="[##_article_rep_tb_link_##]"><s_tb_count>Trackback <span class="cnt">[##_article_rep_tb_cnt_##]</span></s_tb_count></a>						
+						<a href="#" gumby-goto="[data-target='toggles-switches']" onclick="[##_article_rep_rp_link_##]"><s_rp_count>Comment <span class="cnt">[##_article_rep_rp_cnt_##]</span></s_rp_count></a>
+				</div>			
+				<s_tag_label>
+					<div class="tagTrail">
+						<span class="tagText">TAG </span> [##_tag_label_rep_##]
+					</div>
+				</s_tag_label>						
+				<s_tb>
+					<div class="trackback">
+						<h4>Trackback Address : [##_tb_address_##]</h4>
+						<s_tb_container>
+							<ol>
+								<s_tb_rep>
+									<li id="[##_tb_rep_id_##]">
+										<h5>Subject : <a href="[##_tb_rep_url_##]" onclick="window.open(this.href); return false" rel="external nofollow">[##_tb_rep_title_##]</a></h5>
+										<span class="from">Tracked from <span class="name">[##_tb_rep_site_##]</span></span>
+										<span class="date">[##_tb_rep_date_##]</span>
+										<a href="#" onclick="[##_tb_rep_onclick_delete_##]; return false" class="delete">&nbsp;<span>Delete</span></a>
+										<p>[##_tb_rep_desc_##]</p>
+									</li>
+								</s_tb_rep>
+							</ol>
+						</s_tb_container>
+					</div><!-- trackback close -->
+				</s_tb>			
+				<s_ad_div>
+					<div class="admin">
+						<a href="[##_s_ad_m_link_##]">수정</a> :
+						<a href="#" onclick="[##_s_ad_m_onclick_##]">수정(창으로)</a> |
+						([##_s_ad_s1_label_##])→<a href="#" onclick="[##_s_ad_s2_onclick_##]">[##_s_ad_s2_label_##]</a> |
+						<a href="#" onclick="[##_s_ad_t_onclick_##]">관련글(트랙백)</a> |
+						<a href="#" onclick="[##_s_ad_d_onclick_##]">삭제</a>
+					</div>
+				</s_ad_div>
+			</section>
+		</aside>
+		<article class="nine columns content">
+			<h3 class="title"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+			<div class="article">
+				[##_article_rep_desc_##]
+			</div>
+			
+			<div data-target="toggles-switches"></div>
+			<s_rp>
+				<div class="comment">				
+					<s_rp_input_form>
+						<div class="commentWrite">
+							<s_rp_member>
+								<s_rp_guest>
+									<p class="writerInfo">
+										<label for="name">Name</label>
+										<input placeholder="이름" type="text" name="[##_rp_input_name_##]" value="[##_guest_name_##]" >
+									</p>
+									<p class="writerInfo">
+										<label for="password">Password</label>
+										<input placeholder="비밀번호" type="password" name="[##_rp_input_password_##]" value="" >
+									</p>
+									<p class="writerInfo">
+										<label for="homepage">Homepage</label>
+										<input placeholder="홈페이지 / 블로그" type="text" class="homepage" name="[##_rp_input_homepage_##]" value="[##_guest_homepage_##]">
+									</p>
+								</s_rp_guest>
+									<input type="checkbox" name="[##_rp_input_is_secret_##]" class="checkbox" >
+									<label for="secret"> 비밀글 </label>
+							</s_rp_member>
+							<p class="clear">
+								<textarea placeholder="댓글을 입력해주세요" name="[##_rp_input_comment_##]" rows="10" cols="50"></textarea>
+							</p>
+							<p>
+								<button type="submit" value="댓글 달기" onclick="[##_rp_onclick_submit_##]" class="submit" >Submit</button>
+							</p>
+						</div><!-- commentWrite close -->
+					</s_rp_input_form>				
+				
+					<div class="commentList">
+						<s_rp_container>
+							<ul>
+								<s_rp_rep>
+									<li id="[##_rp_rep_id_##]">
+										<div class="[##_rp_rep_class_##]">
+											<p class="commentControl">
+											<span class="name">[##_rp_rep_name_##]</span>											
+											<span class="control">
+												<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify" title="수정/삭제">&nbsp;<span>Edit/Del</span></a>
+												<a href="#" onclick="[##_rp_rep_onclick_reply_##]" class="write" title="댓글쓰기">&nbsp;<span>Reply</span></a>
+											</span>											
+											</p>
+											<span class="cdate"> [##_rp_rep_date_##]</span>
+											<p class="desc">[##_rp_rep_desc_##]</p>
+										</div>
+										<s_rp2_container>
+											<ul>
+												<s_rp2_rep>
+													<li id="[##_rp_rep_id_##]">
+														<div class="[##_rp_rep_class_##]">
+															<p class="commentControl">
+															<span class="name">[##_rp_rep_name_##]</span>															
+															<span class="control">
+																<a href="#" onclick="[##_rp_rep_onclick_delete_##]" class="modify">&nbsp;<span>Edit/Del</span></a>
+															</span>
+															</p>
+															<span class="cdate"> [##_rp_rep_date_##]</span>
+															<p class="desc">[##_rp_rep_desc_##]</p>
+														</div>
+													</li>
+												</s_rp2_rep>
+											</ul>
+										</s_rp2_container>
+									</li>
+								</s_rp_rep>
+							</ul>
+						</s_rp_container>
+					</div><!-- commentList close -->
+				</div><!-- comment close -->
+			</s_rp>								
+		</article>
+	</div>
+	</s_article_rep>
+	
+	<s_notice_rep>
+		<div class="row entryNotice main">
+			<aside class="three columns">
+				<section gumby-fixed="top" gumby-top="20"  class="info" >
+					<span class="category">공지사항</span>
+					<span  class="date">[##_notice_rep_date_##]</span>
+				</section>
+			</aside>
+			<article class="nine columns content">
+				<h3 class="title"><a href="[##_notice_rep_link_##]">[##_notice_rep_title_##]</a></h3>			
+				<div class="article">
+					[##_notice_rep_desc_##]
+				</div>				
+			</article>
+		</div>
+	</s_notice_rep>	
+	
+	<s_article_protected>
+		<div class="row entryProtected main">
+			<aside class="three columns">
+				<section gumby-fixed="top" gumby-top="20"  class="info" >
+					<span class="date">[##_article_rep_date_##]</span>
+				</section>
+			</aside>
+			<article class="nine columns content">
+					<h3 class="title"><a href="[##_article_rep_link_##]">[##_article_rep_title_##]</a></h3>
+					
+				<div class="protectedContentWrap">
+					<p class="text">보호되어 있는 글입니다. <br >
+					내용을 보시려면 비밀번호를 입력하세요.</p>
+					<div class="protectedForm">
+						<label for="[##_article_password_##]">비밀번호</label>
+						<input id="[##_article_password_##]" name="[##_article_password_##]" type="password" onkeydown="if (event.keyCode == 13) [##_article_dissolve_##]" class="pass" >
+						<button type="button" class="submit" value="확인" onclick="[##_article_dissolve_##]" >Confirm</button>
+					</div>
+				</div>				
+			</article>
+		</div>
+	</s_article_protected>	
+
+	<s_list>
+		<section id="searchList" class="row nonEntry main">
+			<h3>'[##_list_conform_##]'에 해당되는 글 [##_list_count_##]건</h3>
+			<ul>
+				<s_list_rep>
+					<li>
+						<span class="date">[##_list_rep_regdate_##]</span>
+						<a href="[##_list_rep_link_##]">[##_list_rep_title_##]</a>
+						<span class="cnt">[##_list_rep_rp_cnt_##]</span>
+					</li>
+				</s_list_rep>
+			</ul>
+		</section>
+	</s_list>
+
+	<s_local>
+		<section id="localog" class="row nonEntry main">
+			<h3>Local Log</h3>
+			<s_local_spot_rep>
+				<div class="spot" style="margin-left: [##_local_spot_depth_##]px">
+					[##_local_spot_##]
+				</div>
+			</s_local_spot_rep>
+			<s_local_info_rep>
+				<div class="info" style="margin-left: [##_local_info_depth_##]px">
+					<a href="[##_local_info_link_##]">[##_local_info_title_##]</a>
+				</div>
+			</s_local_info_rep>
+		</section>
+	</s_local>
+
+	<s_tag>
+		<section id="taglog" class="row nonEntry main">
+			<h3>Tags</h3>
+				<s_tag_rep>
+						<a href="[##_tag_link_##]" class="[##_tag_class_##]">[##_tag_name_##]</a>
+				</s_tag_rep>
+		</section>
+	</s_tag>
+
+	<s_guest>
+		<article id="guestbook" class="row nonEntry main">
+			<div class="six columns">
+				<section gumby-fixed="top" gumby-top="20" >
+					<s_guest_input_form>
+						<div id="guestWrite" class="commentWrite">
+						<h3>Guestbook</h3>
+							<s_guest_member>
+								<s_guest_form>
+									<p class="writerInfo">
+										<label for="name">Name</label>
+										<input placeholder="이름" type="text" name="[##_guest_input_name_##]" value="[##_guest_name_##]" >
+									</p>
+									<p class="writerInfo">
+										<label for="password">Password</label>
+										<input placeholder="비밀번호" type="password" name="[##_guest_input_password_##]" value="" >
+									</p>
+									<p class="writerInfo">
+										<label for="homepage">Homepage</label>
+										<input placeholder="홈페이지 / 블로그" type="text" name="[##_guest_input_homepage_##]" value="[##_guest_homepage_##]" class="homepage" >
+									</p>
+								</s_guest_form>
+									<input type="checkbox" name="[##_guest_input_is_secret_##]" class="checkbox" >
+									<label for="secret"> 비밀글 </label>
+							</s_guest_member>
+							<p>
+								<textarea name="[##_guest_textarea_body_##]" cols="50" rows="6"> </textarea>
+							</p>
+							<p>
+								<button type="submit" value="안부 남기기" onclick="[##_guest_onclick_submit_##]" class="submit" >Submit</button>
+							</p>
+						</div><!-- guestWrite close -->
+					</s_guest_input_form>
+				</section>
+			</div>
+			<div class="six columns">
+				<s_guest_container>
+					<div id="guestList">
+						<ul>
+							<s_guest_rep>
+								<li id="[##_guest_rep_id_##]">
+									<div class="[##_guest_rep_class_##]">
+										<p class="commentControl">
+										<span class="name">[##_guest_rep_name_##]</span>										
+										<span class="control">
+											<a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify" title="수정/삭제">&nbsp;<span>Edit/Del</span></a>
+											<a href="#" onclick="[##_guest_rep_onclick_reply_##]" class="write" title="댓글쓰기">&nbsp;<span>Reply</span></a>
+										</span>										
+										</p>
+										<span class="cdate"> [##_guest_rep_date_##]</span>
+										<p class="desc">[##_guest_rep_desc_##]</p>
+									</div>
+									<s_guest_reply_container>
+										<ul>
+											<s_guest_reply_rep>
+												<li id="[##_guest_rep_id_##]">
+													<div class="[##_guest_rep_class_##]">
+														<p class="commentControl">
+														<span class="name">[##_guest_rep_name_##]</span>
+														
+														<span class="control">
+															<a href="#" onclick="[##_guest_rep_onclick_delete_##]" class="modify">&nbsp;<span>Edit/Del</span></a>
+														</span>
+														</p>
+														<span class="cdate"> [##_guest_rep_date_##]</span>
+														<p class="desc">[##_guest_rep_desc_##]</p>
+													</div>
+												</li>
+											</s_guest_reply_rep>
+										</ul>
+									</s_guest_reply_container>
+								</li>
+							</s_guest_rep>
+						</ul>
+					</div><!-- guestList close -->
+				</s_guest_container>
+			</div>
+		</article><!-- guestbook close -->
+	</s_guest>
+	<div class="row">
+		<s_paging>
+			<div id="paging">
+				<a [##_prev_page_##] class="[##_no_more_prev_##]" id="prevPage">←</a>
+				<span class="numbox">
+					<s_paging_rep>
+					<a [##_paging_rep_link_##] class="num"> [##_paging_rep_link_num_##]</a>
+					</s_paging_rep>
+				</span>
+				<a [##_next_page_##] class="[##_no_more_next_##]" id="nextPage">→﻿</a>
+			</div>
+		</s_paging>		
+	</div>
+	<footer class="row">
+		<div class="copyright">
+			<a href="[##_blog_link_##]"> [##_blogger_##]</a>'s Blog is designed by <a href="http://est0que.tistory.com">Estoque</a>
+		</div>		
+	</footer>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="./images/function.js"></script>
+</s_t3>
+  </body>
+</html>
